@@ -1,5 +1,5 @@
 #Guardar en memoria los 20 primeros términos de la sucesión de fibonacci
-addi $s0,$zero,-1 #Se inicializa s0 en 0 y se usara para controlar la posición de memoria y la cantidad de elementos
+addi $s0,$zero,0 #Se inicializa s0 en 0 y se usara para controlar la posición de memoria y la cantidad de elementos
 addi $s1,$zero,20 #se inicializa s1 en el valor final de valores a buscar.
 addi $t0,$zero,0 #guarda en t0 fibbonacci de 0
 addi $t1,$zero,1 #guarda en t1 fibonacci de 1
